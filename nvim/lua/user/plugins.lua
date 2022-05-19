@@ -282,6 +282,9 @@ return packer.startup(function(use)
   -- wild-filre
   use "gcmt/wildfire.vim"
 
+  -- lazy-git
+  use 'kdheepak/lazygit.nvim'
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
