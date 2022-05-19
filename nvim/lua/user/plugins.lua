@@ -279,6 +279,8 @@ return packer.startup(function(use)
   use "Pocco81/AutoSave.nvim"
   use "djoshea/vim-autoread"
 
+  -- wild-filre
+  use "gcmt/wildfire.vim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
